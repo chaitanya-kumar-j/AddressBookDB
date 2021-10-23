@@ -19,6 +19,10 @@ Email VARCHAR(50) not null
 SELECT * FROM address_book
 
 -- UC3 =>
+INSERT INTO address_book VALUES ('Chaitanya', 'Kumar', 'sriram nagar', 'Proddatur', 'AP', '516360', '1234567890', 'dfghj')
+INSERT INTO address_book VALUES ('chandra', 'jinka', 'sriram nagar', 'Proddatur', 'AP', '516360', '0987654234', 'laksjd')
+INSERT INTO address_book VALUES ('sekhar', 'chandra', 'sriram nagar', 'Proddatur', 'AP', '516360', '4567234098', 'tewyqu')
+SELECT * FROM address_book
 
 -- UC4 =>
 
