@@ -41,3 +41,4 @@ SELECT City,COUNT(City) FROM address_book GROUP BY City;
 SELECT State,COUNT(State) FROM address_book GROUP BY State;
 
 -- UC8 =>
+SELECT * FROM Address_Book WHERE City = 'Proddatur' ORDER BY FirstName ASC;
