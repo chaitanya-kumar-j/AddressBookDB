@@ -25,6 +25,9 @@ INSERT INTO address_book VALUES ('sekhar', 'chandra', 'sriram nagar', 'Proddatur
 SELECT * FROM address_book
 
 -- UC4 =>
+UPDATE address_book
+SET PhoneNumber = '1234561234' where FirstName = 'Chaitanya'
+SELECT * FROM address_book
 
 -- UC5 =>
 
