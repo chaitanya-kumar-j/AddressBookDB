@@ -34,9 +34,10 @@ DELETE address_book WHERE FirstName = 'sekhar'
 SELECT * FROM address_book
 
 -- UC6 =>
-SELECT City,COUNT(City) FROM address_book GROUP BY City;
-SELECT State,COUNT(State) FROM address_book GROUP BY State;
+SELECT * FROM address_book WHERE City = 'Proddatur' or State = 'KA';
 
 -- UC7 =>
+SELECT City,COUNT(City) FROM address_book GROUP BY City;
+SELECT State,COUNT(State) FROM address_book GROUP BY State;
 
 -- UC8 =>
