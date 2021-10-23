@@ -30,8 +30,12 @@ SET PhoneNumber = '1234561234' where FirstName = 'Chaitanya'
 SELECT * FROM address_book
 
 -- UC5 =>
+DELETE address_book WHERE FirstName = 'sekhar'
+SELECT * FROM address_book
 
 -- UC6 =>
+SELECT City,COUNT(City) FROM address_book GROUP BY City;
+SELECT State,COUNT(State) FROM address_book GROUP BY State;
 
 -- UC7 =>
 
