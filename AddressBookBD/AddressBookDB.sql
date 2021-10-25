@@ -55,3 +55,7 @@ UPDATE address_book SET addressBookName = 'Chaitanya',type = 'Family' WHERE Firs
 UPDATE address_book SET addressBookName = 'Chaitanya',type = 'Profession' WHERE FirstName = 'Mabel' or FirstName = 'Mounika' or FirstName = 'Nibedita'
 UPDATE address_book SET addressBookName = 'Chaitanya',type = 'Friends' WHERE FirstName = 'Rama'
 UPDATE address_book SET addressBookName = 'Maruti',type = 'Friends' WHERE FirstName = 'Chaitanya'
+
+
+-- UC10
+SELECT type,COUNT(type) FROM address_book WHERE addressBookName = 'Maruti' GROUP BY type;
